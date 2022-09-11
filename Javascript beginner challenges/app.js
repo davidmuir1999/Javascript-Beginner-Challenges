@@ -60,3 +60,27 @@
 // }
 
 // console.log(calcRemainder(7,8))
+
+// Question 11 given two nuymbers, return true if the number is odd
+// function isOdd(num){
+//     return num % 2 !== 0
+// }
+// console.log(isOdd(2))
+
+// Question 12 create a function that takes a number argument and returns 1 if the number is even. If the number is off return -1
+// function booleanInteger(num){
+//    return num % 2 === 0 ? 1 : -1;
+// }
+// console.log(booleanInteger(2));
+
+// Quetion 13 create a function that takes in two strings. If the first string is equal to "Logged_in" and the second string is equal to "subscribed" return true otherwise return false.
+// function isLoggedInAndSubscribed(string1, string2) {
+//     return string1 === "LOGGED_IN" && string2 === "SUBSCRIBED"
+// }
+// console.log(isLoggedInAndSubscribed("LOGGED_IN", "SUBSCRIBED"))
+
+// Question 14 create a function that takes in two strings. If the first string is equal to "LOGGED_IN" or the second strinf is equal to "SUBSCRIBED" return true, otherwise return false
+// function isLoggedInAndSubscribed(string1, string2) {
+//     return string1 === "LOGGED_IN" || string2 === "SUBSCRIBED"
+// }
+// console.log(isLoggedInAndSubscribed("LOGGED_OUT", "UNSUBSCRIBED"))
